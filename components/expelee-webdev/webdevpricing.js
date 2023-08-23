@@ -1,7 +1,5 @@
 import React from "react";
-import PrimaryButton from "../PrimaryButton";
 import { motion } from "framer-motion";
-import { AiOutlineCheckCircle, AiOutlineCloseCircle } from "react-icons/Ai";
 import LearnMore from "../TextLink";
 
 import Link from "next/link";
@@ -119,53 +117,35 @@ function Webdevpricing() {
             </div>
             <ul className=" flex flex-col gap-20 lg:gap-6 lg:mt-4 mx-4 mt-9 lg:mb-20 mb-48">
               <li className="flex items-center py-2 mt-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+              <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Google Analytics Integration
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   All Basic Services
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">Custom domain</p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Basic chat support
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCloseCircle
-                  className="text-red-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/cross.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Unlimited Requests
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCloseCircle
-                  className="text-red-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/cross.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Free domain for 1 year
                 </p>
@@ -187,71 +167,47 @@ function Webdevpricing() {
             </div>
             <ul className=" flex flex-col gap-20 lg:gap-6 lg:mt-4 mx-4 mt-9 lg:mb-20 mb-48">
               <li className="flex items-center py-2 mt-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Google Analytics Integration
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   All Basic Services
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">Custom domain</p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Basic chat support
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Unlimited Requests
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Brute-force protection
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   Cancel Anytime
                 </p>
               </li>
               <li className="flex items-center py-4">
-                <AiOutlineCheckCircle
-                  className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto"
-                  size="30"
-                />
+                <img src="/static/check.svg" className="text-green-900 w-28 h-28 lg:w-auto lg:h-auto" />
                 <p className="text-[6rem] lg:text-[17px] ml-4">
                   eCommerce Features
                 </p>

@@ -46,7 +46,7 @@ function Business() {
             visible: { opacity: 1, scale: 1 },
             hidden: { opacity: 0, scale: 0 },
           }}
-          className="flex justify-center"
+          className="flex justify-center h-[120rem] lg:h-auto"
         >
           <div className="grid grid-cols-2 gap-12 lg:gap-8 h-[40rem]">
             <div className="bg-white lg:h-[20rem] lg:w-[20rem] h-[55rem] w-[55rem] shadow-2xl rounded-2xl justify-center items-center hover:scale-110 duration-300 p-20 lg:p-0">
