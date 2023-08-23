@@ -8,11 +8,11 @@ function Webdevpricing() {
     <>
       <div className="px-[10px] flex flex-col items-center">
         <div className="flex flex-col gap-2 justify-center items-center cursor-pointer mt-[10rem] ">
-          <h4 className="flex  bold gradient justify-center lg:justify-start text-[6rem] lg:text-[2rem] uppercase">
+          <h4 className="flex  bold gradient justify-center lg:justify-center text-center text-[6rem] lg:text-[2rem] uppercase">
             Plans Curated for your perfect business
           </h4>
           <h2 className="bold text-[8rem] lg:text-[4rem] uppercase mt-[1rem] lg:mt-[0rem] lg:w-[90%] text-center">
-            Plans Curated for your perfect business
+            Our Plan & Pricing
           </h2>
           <p className="lg:w-[70%] justify-start text-[5rem] lg:text-[1.5rem] text-center w-[80%]">
             Adipiscing elit, sed do eiusmod tempor incididunt labore dolore
