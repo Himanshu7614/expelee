@@ -1,0 +1,17 @@
+.cardContent {
+	clip-path: polygon(55% 8%, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 20%);
+}
+
+.blogCard {
+	transition: all 0.3s ease;
+	/* box-shadow: -4px 4px 39.74px rgba(145, 158, 171, 0.5); */
+	box-shadow: -3.51567px 3.51567px 34.9282px rgba(145, 158, 171, 0.5);
+}
+
+.blogCard:hover {
+	transform: translateY(-10px);
+}
+
+.clip {
+	clip-path: polygon(53% 0, 100% 0, 100% 50%, 100% 84%, 0 100%, 0 0);
+}

@@ -1,0 +1,14 @@
+.table {
+	/* TODO: remove this */
+	/* width: 1340px;
+	height: 834px; */
+
+	background: #ffffff;
+	/* border: 1px solid rgba(140, 142, 146, 0.17); */
+	box-shadow: -4px 4px 36px rgba(145, 158, 171, 0.44);
+	border-radius: 20px !important;
+}
+
+.table > tbody > tr > td.cell {
+	vertical-align: middle;
+}

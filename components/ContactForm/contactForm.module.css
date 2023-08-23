@@ -1,0 +1,8 @@
+.form {
+	background: #ffffff;
+	border: 1px solid rgba(91, 97, 110, 0.2);
+	box-shadow: -4px 4px 36px rgba(145, 158, 171, 0.44);
+	border-end-end-radius: 29px;
+	border-top-right-radius: 29px;
+
+}
